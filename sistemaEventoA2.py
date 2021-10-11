@@ -11,7 +11,7 @@ def exibirMenu():
 def escolhaMenu():
     escolha = input()
     if (escolha == 1):
-        nomeNovoUsuario = input("dgite o nome completo do novo Usuário:\n")
+        nomeNovoUsuario = input("Digite o nome completo do novo Usuário:\n")
      #   dicionarioUsuarios.append(nomeNovoUsuario)
         emailNovoUsuario = input("Digite o e-mail do novo Usuário:\n")
     elif (escolha == 2):
