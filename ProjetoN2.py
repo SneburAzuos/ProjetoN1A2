@@ -4,8 +4,12 @@ listaUsuarios = []
 def alterarNome():
     print("fon")
     main()
-def removerUsuario():
-    print("fon")
+def removerUsuario(listaUsuarios):
+    nomeexcluido = input("Digite o nome que deseja excluir: ")
+        if(nomeexcluido in listaUsuarios):
+            listaUsuarios.remove(nomeexcluido)
+        else:
+            print("O nome não está na lista!")  
     main()
     
 def verificarNome(listaUsuarios):
